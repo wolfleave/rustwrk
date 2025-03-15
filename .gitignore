@@ -1,0 +1,33 @@
+# Rust 编译输出目录
+/target/
+
+# Rust 依赖锁文件（可选是否忽略）
+# Cargo.lock
+
+# IDE 和编辑器文件
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 调试文件
+*.pdb
+
+# 日志文件
+*.log
+
+# 环境变量文件
+.env
+.env.local
+
+# 测试覆盖率报告
+coverage/
+
+# 文档生成目录
+/doc/
+
+# 其他临时文件
+*.tmp
+*.bak
+*~ 
